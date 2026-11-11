@@ -1,2 +1,2 @@
-const name = prompt("Kirjoita tähän"); 
-console.log("Moi " + name);
+const name = prompt("Kirjoita nimi:");
+document.querySelector("#greets").innerHTML  = "Hello, " + name + "!";
